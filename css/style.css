@@ -66,7 +66,7 @@ hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  overflow: visible; }
+  overflow: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -208,7 +208,7 @@ textarea {
 
 button,
 input {
-  overflow: visible; }
+  overflow: hidden; }
 
 button,
 select {
@@ -249,7 +249,7 @@ input[type="month"] {
   -webkit-appearance: listbox; }
 
 textarea {
-  overflow: auto;
+  overflow: hidden;
   resize: vertical; }
 
 fieldset {
@@ -4853,7 +4853,7 @@ a.close.disabled {
   top: -9999px;
   width: 50px;
   height: 50px;
-  overflow: scroll; }
+  overflow: hidden; }
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -6408,7 +6408,7 @@ button.bg-dark:focus {
     float: none !important; } }
 
 .overflow-auto {
-  overflow: auto !important; }
+  overflow: hidden !important; }
 
 .overflow-hidden {
   overflow: hidden !important; }
@@ -6464,7 +6464,7 @@ button.bg-dark:focus {
   position: static;
   width: auto;
   height: auto;
-  overflow: visible;
+  overflow: hidden;
   clip: auto;
   white-space: normal; }
 
@@ -7914,9 +7914,9 @@ button.bg-dark:focus {
   white-space: nowrap !important; }
 
 .text-truncate {
-  overflow: hidden;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
+   hidden;
+  -o-text- ellipsis;
+  text-overflow: hidden;
   white-space: nowrap; }
 
 .text-left {
@@ -8882,7 +8882,7 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #1a1a1a;
-  overflow: visible; }
+  overflow: hidden; }
 
 .progress-bar {
   background: #ffbd39;
@@ -8893,7 +8893,7 @@ h1, h2, h3, h4, h5,
   color: #000000;
   font-weight: 600;
   position: relative;
-  overflow: visible;
+   visible;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -9291,7 +9291,7 @@ textarea.form-control {
   letter-spacing: .1em; }
 
 .block-20 {
-  overflow: hidden;
+   hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
