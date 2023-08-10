@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -66,7 +60,8 @@ hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -169,7 +164,7 @@ img {
   border-style: none; }
 
 svg {
-  overflow: hidden;
+  /* overflow: hidden; */
   vertical-align: middle; }
 
 table {
@@ -208,7 +203,8 @@ textarea {
 
 button,
 input {
-  overflow: hidden; }
+  /* overflow: hidden; */
+ }
 
 button,
 select {
@@ -249,7 +245,7 @@ input[type="month"] {
   -webkit-appearance: listbox; }
 
 textarea {
-  overflow: hidden;
+  /* overflow: hidden; */
   resize: vertical; }
 
 fieldset {
@@ -444,7 +440,8 @@ pre {
 
 .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll; }
+  /* overflow-y: scroll;  */
+}
 
 .container {
   width: 100%;
@@ -1548,8 +1545,9 @@ pre {
   .table-responsive-sm {
     display: block;
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    /* overflow-x: auto; */
+    /* -webkit-overflow-scrolling: touch; */
+   }
     .table-responsive-sm > .table-bordered {
       border: 0; } }
 
@@ -1557,8 +1555,9 @@ pre {
   .table-responsive-md {
     display: block;
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    /* overflow-x: auto; */
+    /* -webkit-overflow-scrolling: touch; */
+   }
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
@@ -1566,8 +1565,9 @@ pre {
   .table-responsive-lg {
     display: block;
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    /* overflow-x: auto; */
+    /* -webkit-overflow-scrolling: touch; */
+   }
     .table-responsive-lg > .table-bordered {
       border: 0; } }
 
@@ -1575,16 +1575,18 @@ pre {
   .table-responsive-xl {
     display: block;
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    /* overflow-x: auto; */
+    /* -webkit-overflow-scrolling: touch; */
+   }
     .table-responsive-xl > .table-bordered {
       border: 0; } }
 
 .table-responsive {
   display: block;
   width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch; }
+  /* overflow-x: auto; */
+  /* -webkit-overflow-scrolling: touch; */
+ }
   .table-responsive > .table-bordered {
     border: 0; }
 
@@ -2510,7 +2512,7 @@ input[type="button"].btn-block {
 .collapsing {
   position: relative;
   height: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-transition: height 0.35s ease;
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease; }
@@ -2679,7 +2681,7 @@ input[type="button"].btn-block {
 .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-top: 1px solid #e9ecef; }
 
 .dropdown-item {
@@ -3955,7 +3957,8 @@ input[type="button"].btn-block {
       width: 100%; } }
 
 .accordion > .card {
-  overflow: hidden; }
+   /* overflow: hidden; */
+   } 
   .accordion > .card:not(:first-of-type) .card-header:first-child {
     border-radius: 0; }
   .accordion > .card:not(:first-of-type):not(:last-of-type) {
@@ -4324,7 +4327,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   height: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
@@ -4651,7 +4654,7 @@ a.close.disabled {
 
 .toast {
   max-width: 350px;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 0.875rem;
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
@@ -4689,10 +4692,12 @@ a.close.disabled {
   padding: 0.75rem; }
 
 .modal-open {
-  overflow: hidden; }
+  /* overflow: hidden; */
+ }
   .modal-open .modal {
-    overflow-x: hidden;
-    overflow-y: auto; }
+    /* overflow-x: hidden; */
+    /* overflow-y: auto;  */
+  }
 
 .modal {
   position: fixed;
@@ -4702,7 +4707,7 @@ a.close.disabled {
   display: none;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   outline: 0; }
 
 .modal-dialog {
@@ -4736,13 +4741,15 @@ a.close.disabled {
   max-height: calc(100% - 1rem); }
   .modal-dialog-scrollable .modal-content {
     max-height: calc(100vh - 1rem);
-    overflow: hidden; }
+    /* overflow: hidden;  */
+  }
   .modal-dialog-scrollable .modal-header,
   .modal-dialog-scrollable .modal-footer {
     -ms-flex-negative: 0;
     flex-shrink: 0; }
   .modal-dialog-scrollable .modal-body {
-    overflow-y: auto; }
+     /* overflow-y: auto; */
+     } 
 
 .modal-dialog-centered {
   display: -webkit-box;
@@ -4853,7 +4860,8 @@ a.close.disabled {
   top: -9999px;
   width: 50px;
   height: 50px;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -5094,7 +5102,8 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  /* overflow: hidden; */
+ }
   .carousel-inner::after {
     display: block;
     clear: both;
@@ -5670,7 +5679,8 @@ button.bg-dark:focus {
   display: block;
   width: 100%;
   padding: 0;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .embed-responsive::before {
     display: block;
     content: ""; }
@@ -6408,10 +6418,12 @@ button.bg-dark:focus {
     float: none !important; } }
 
 .overflow-auto {
-  overflow: hidden !important; }
+  /* overflow: hidden */
+   }
 
 .overflow-hidden {
-  overflow: hidden !important; }
+  /* overflow: hidden */
+   }
 
 .position-static {
   position: static !important; }
@@ -6455,7 +6467,7 @@ button.bg-dark:focus {
   width: 1px;
   height: 1px;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0; }
@@ -6464,7 +6476,7 @@ button.bg-dark:focus {
   position: static;
   width: auto;
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   clip: auto;
   white-space: normal; }
 
@@ -7913,10 +7925,8 @@ button.bg-dark:focus {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-truncate {
-   hidden;
-  -o-text- ellipsis;
-  text-overflow: hidden;
+.text-truncate { 
+  /* text-overflow: hidden; */
   white-space: nowrap; }
 
 .text-left {
@@ -8062,7 +8072,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-break {
   word-break: break-word !important;
-  overflow-wrap: break-word !important; }
+  /* overflow-wrap: break-word !important;  */
+}
 
 .text-reset {
   color: inherit !important; }
@@ -8140,7 +8151,7 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     height: 100%;
     width: 100%; }
@@ -8882,7 +8893,8 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #1a1a1a;
-  overflow: hidden; }
+  /* overflow: hidden; */
+ }
 
 .progress-bar {
   background: #ffbd39;
@@ -8893,7 +8905,6 @@ h1, h2, h3, h4, h5,
   color: #000000;
   font-weight: 600;
   position: relative;
-   visible;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -9291,7 +9302,6 @@ textarea.form-control {
   letter-spacing: .1em; }
 
 .block-20 {
-   hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
