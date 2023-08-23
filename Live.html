@@ -33,12 +33,15 @@
     });
 
     // Set a timeout to show the popup after a delay (2000 milliseconds)
-    setTimeout(showPopup, 5000);
+    setTimeout(showPopup, 100);
 });
   </script>
   
     <style>
-        /* Popup Styles */
+      /* .container{
+        width: 100%;
+        max-width: 700px;
+      } */
 .popup {
     width: 100%;
     height: 500px;
@@ -64,50 +67,47 @@
     cursor: pointer;
 }
 .p1{
-    padding-left:450px;
+    text-align:center;
     font-weight: bold;
     color:#fff;
-    font-size: 60px;
+    
 }
-/* color: #ffbd39; */
 .font{
     font-size: 40px;
     padding-left: 575px;
     margin-top: -40px;
+    align-items: center;
   }
- .meeth{ 
-   width:50%;
-   border-right:7px solid #fff;
-   height:150px;
-  
+  .flex{
+    display: flex;
+    flex-direction: column;
   }
-
-.meet{
-  padding-left:150px;
-  font-weight:700;
-  font-size:30px;
+  .row{
+    margin-top: 10px;
+  }
+  .column {
+    width: 50%;
+  padding: 10px;
+  text-align: center;
+  } 
+  .meet{
+  text-align: center !important;
   color:#fff;
-  margin-top:50px;
-  
+  font-weight: bold;
+
 }
 .meetl{
-  padding-left: 130px;
+  text-align: center !important;
+  
 }
-/* .zoomh{
-  width:50%;
-   border-left:7px solid #fff;
-   height:150px;
-   
-} */
 .zoom{
-  padding-left:180px;
-  font-weight:700;
-  font-size:30px;
   color:#fff;
-  margin-top:50px;
-}
+  text-align: center !important;
+  font-weight: bold;
+
+} 
 .zooml{
-  padding-left: 100px;
+   text-align: center !important;
 }
 .btton{
   font-size:30px;
@@ -123,6 +123,19 @@
 .m1{
   margin-bottom: 1.5rem !important;
 }
+.font-content{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.column1 {
+    width: 33.%;
+    padding: 10px;
+    text-align: center;
+    float:left;
+} 
+
     </style>
     </head>
     <body>
@@ -147,55 +160,36 @@
               </div>
             </div>
           </nav>
-             
+         <div class="container">    
           <div id="popup" class="popup">
             <div class="popup-content">
                 <span class="close-btn" id="close-btn">&times;</span>
-                <p class="p1">Live Talk Now</p>
-                <ul class="font">
-                 <a href="https://www.linkedin.com/in/muhammad-zuhaib-yaseen-4a042712b/"><span class="icon-linkedin">&nbsp;</span></a>
-                 <a href="https://api.whatsapp.com/send?phone=923136367498"><span class="icon-whatsapp">&nbsp;</span></a>
-                 <a href="skype:zuhaib.attari5?chat"><span class="icon-skype"></span></a>
-                </ul>
-                <table>
-                  <row>
-                        <td class="meeth">
-                               <div class="meet">Google Meet Link</div>
-                               <a class="meetl" href="https://meet.google.com/sgh-ndeb-nsk" target="_blank">https://meet.google.com/sgh-ndeb-nsk</a>
-                        </td>
-                        <td class="zoom1">
-                               <div class="zoom">Zoom Link</div>
-                               <a href="https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09" target="_blank"><p class="zooml">https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09</p></a>
-                        </td>
-                  </row>
-                </table>          
-              </div>
-         
-
-                <!-- ftco-footer-social list-unstyled float-md-left float-lft mt-5 font-weight -->
-                 <!-- <div>
-                    <div class="sa">
-                    Google Meet
-                         <div class="sa1">
-                            <a href="https://www.linkedin.com/in/muhammad-zuhaib-yaseen-4a042712b/"><span class="icon-linkedin"></span></a>
-                         </div> 
-                    </div>
-                <div class="sa">
-                    Zoom
-                    <div class="sa1">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sint unde, dolor quos sunt quidem.
-                    </div>
+                <div class="container">
+                <h1 class="p1">Live Talk Now</h1>
                 </div>
-                <div class="sa">
-                    https://api.whatsapp.com/send?phone=923136367498 -->
-                     <!-- Whatsapp
-                     <div class="sa1">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure modi unde temporibus earum voluptatum eaque.
-                     </div>
+                <ul class="font-content">
+                     <li class="column1"><a href="https://www.linkedin.com/in/muhammad-zuhaib-yaseen-4a042712b/"><span class="icon-linkedin">&nbsp;</span></a>
+                     </li>
+                     <li class="column1"><a href="https://api.whatsapp.com/send?phone=923136367498"><span class="icon-whatsapp">&nbsp;</span></a>
+                     </li>
+                     <li class="column1"><a href="skype:zuhaib.attari5?chat"><span class="icon-skype"></span></a>
+                     </li>
+                </ul>
+                <div class="flex">
+                  <div class="row">
+                        <div class="column">
+                               <h4 class="meet">Google Meet Link</h4>
+                               <a class="meetl" href="https://meet.google.com/sgh-ndeb-nsk" target="_blank">https://meet.google.com/sgh-ndeb-nsk</a>
+                        </div>
+                        <div class="column">
+                               <h4 class="zoom">Zoom Link</h4>
+                               <a class="zooml" href="https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09" target="_blank">https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09</a>
+                        </div>
+                  </div>      
                 </div>
             </div>
-            </div> --> 
         </div>
+     </div>   
         <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
           <div class="container">
             <!-- <div class="row justify-content-center mb-5 pb-3">
