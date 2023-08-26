@@ -70,6 +70,7 @@
     text-align:center;
     font-weight: bold;
     color:#fff;
+    margin-bottom: 50px;
     
 }
 .font{
@@ -78,12 +79,19 @@
     margin-top: -40px;
     align-items: center;
   }
-  .flex{
+  /* .flex{
     display: flex;
     flex-direction: column;
   }
-  .row{
-    margin-top: 10px;
+  .row1{
+    margin-top: -220px;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
   }
   .column {
     width: 50%;
@@ -108,7 +116,8 @@
 } 
 .zooml{
    text-align: center !important;
-}
+   font-size-adjust: initial;
+} */
 .btton{
   font-size:30px;
   margin-top:-200px;
@@ -123,25 +132,19 @@
 .m1{
   margin-bottom: 1.5rem !important;
 }
-.font-content{
+/* .font-content{
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-}
-.column1 {
-    width: 33.%;
-    padding: 10px;
-    text-align: center;
-    float:left;
-} 
+/* } */
 
     </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
             <div class="container">
-              <a class="navbar-brand" href="index-2.html">Attari&nbsp; Developer's</a>
+              <a class="navbar-brand" href="index.html">Attari&nbsp; Developer's</a>
               <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
               </button>
@@ -167,24 +170,25 @@
                 <div class="container">
                 <h1 class="p1">Live Talk Now</h1>
                 </div>
-                <ul class="font-content">
-                     <li class="column1"><a href="https://www.linkedin.com/in/muhammad-zuhaib-yaseen-4a042712b/"><span class="icon-linkedin">&nbsp;</span></a>
-                     </li>
-                     <li class="column1"><a href="https://api.whatsapp.com/send?phone=923136367498"><span class="icon-whatsapp">&nbsp;</span></a>
-                     </li>
-                     <li class="column1"><a href="skype:zuhaib.attari5?chat"><span class="icon-skype"></span></a>
-                     </li>
-                </ul>
-                <div class="flex">
-                  <div class="row">
-                        <div class="column">
-                               <h4 class="meet">Google Meet Link</h4>
-                               <a class="meetl" href="https://meet.google.com/sgh-ndeb-nsk" target="_blank">https://meet.google.com/sgh-ndeb-nsk</a>
-                        </div>
-                        <div class="column">
-                               <h4 class="zoom">Zoom Link</h4>
-                               <a class="zooml" href="https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09" target="_blank">https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09</a>
-                        </div>
+                <div class="flex-container">
+                   
+                  <div class="flex-item">
+                               <h4 style="font-weight:900;">Google Meet Link</h4>
+                               <a href="https://meet.google.com/sgh-ndeb-nsk" target="_blank">https://meet.google.com/sgh-ndeb-nsk</a>
+                  </div>
+                  <div class="flex-item1">
+                  <ul class="ul-setting containerx">
+                    <li class="column1"><a href="https://www.linkedin.com/in/muhammad-zuhaib-yaseen-4a042712b/"><span class="icon-linkedin">&nbsp;</span></a>
+                    </li>
+                    <li class="column1"><a href="https://api.whatsapp.com/send?phone=923136367498"><span class="icon-whatsapp">&nbsp;</span></a>
+                    </li>
+                    <li class="column1"><a href="skype:zuhaib.attari5?chat"><span class="icon-skype"></span></a>
+                    </li>
+               </ul>
+               </div>
+                  <div class="flex-item">
+                               <h4 style="font-weight:900;">Zoom Link</h4>
+                               <a  href="https://us05web.zoom.us/j/5461124110?pwd=eEZIT0VmNmJ4MDZ1OTZwaXl2eExPdz09" target="_blank">https://us05web.zoom.us/j/5461124110?</a>
                   </div>      
                 </div>
             </div>
@@ -302,7 +306,7 @@
           </div>
         </section>
           <footer class="ftco-footer ftco-section">
-            <div class="container">
+            <!-- <div class="container">
               <div class="row mb-5">
                 <div class="col-md">
                   <div class="ftco-footer-widget mb-4">
@@ -353,11 +357,11 @@
                       </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="row">
                 <div class="col-md-12 text-center">
       
-                  <p>
+                  <p style="margin-top: -50px; margin-bottom: 0px;padding-bottom: -100px;padding-top: -300px;">
         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by Attari Developer's
                   </p>
                 </div>
