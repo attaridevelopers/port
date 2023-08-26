@@ -3375,3 +3375,28 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-item{
+  flex: 1;
+  text-align: center;
+  margin-top:80px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.flex-item1{
+  flex: 0.2;
+  font-size: 30px;
+  margin-top:60px;
+}
+.ul-setting{
+  list-style: none;
+  align-items: center;
+}
+.container1{
+  margin-top: auto;
+}
