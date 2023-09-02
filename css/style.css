@@ -9720,8 +9720,8 @@ textarea.form-control {
       margin-top: 200px;
       position: absolute;
       top: -280px;
-      right: -5px;
-     
+      right: 0px;
+      left: 0px;
     }
      .get{
       margin-top: 200px;
@@ -9732,14 +9732,66 @@ textarea.form-control {
       .mt-3{
       margin-top: -90px !important; 
     }
-    }
- @media(max-width: 360px){
+  }
+  @media(max-width: 670px){
     .subheading1{
+      margin-top: 200px;
       position: absolute;
-      right: -5px;
-     
+      top: -320px;
+      right: 0px;
+      left: 0px;
     }
-
+    .youtube{
+      position: absolute;
+      top: 23em;
+      right: 20px;
+      align-items: center;
+      width:600px;
+      height:300px;
+     }
+     .mt-3{
+      margin-top: -200px !important; 
+    }
+  }
+  @media(max-width: 500px){
+    .subheading1{
+      margin-top: 200px;
+      position: absolute;
+      top: -350px;
+      right: 0px;
+      left: 0px;
+    }
+    .youtube{
+      position: absolute;
+      top: 23em;
+      right: 22px;
+      align-items: center;
+      width:452px;
+      height:300px;
+     }
+     .mt-3{
+      margin-top: -200px !important; 
+    }
+  }
+  @media(max-width: 360px){
+    .subheading1{
+      margin-top: 200px;
+      position: absolute;
+      top: -350px;
+      right: 0px;
+      left: 0px;
+    }
+    .youtube{
+      position: absolute;
+      top: 27em;
+      right: 22px;
+      align-items: center;
+      width:300px;
+      height:199px;
+     }
+     .mt-3{
+      margin-top: -200px !important; 
+    }
   }
     .subheading1{
       margin-top:30px;
